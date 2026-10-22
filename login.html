@@ -9,21 +9,22 @@
 <body class="login-page">
   <div class="login-bg"><img src="images/login(edited).jpg" alt=""></div>
 
-  <form class="glass-card" action="#" method="post">
-    <img class="card-logo" src="images/mascot.png" alt="Moods Wing">
+  <form class="glass-card" action="login.php" method="post">
+    <img class="card-logo" src="mascot.png" alt="Moods Wing">
     <h2 class="card-brand">Moods Wing</h2>
 
-    <input type="text" class="pill-input" placeholder="Username" required>
-    <input type="password" class="pill-input" placeholder="Password" required>
+    <input type="email" name="email" class="pill-input" placeholder="Email" required>
+    <input type="password" name="password" class="pill-input" placeholder="Password" required>
 
     <div class="form-row">
       <label><input type="checkbox"> Remember me</label>
-      <a href="#">Forgot password?</a>
+      <a href="forgot.php">Forgot password?</a>
     </div>
 
     <button type="submit" class="btn btn-green btn-block">Login</button>
 
     <p class="form-note">Don't have an account? <a href="register.html"><strong>Register now</strong></a></p>
   </form>
+    
 </body>
 </html>
