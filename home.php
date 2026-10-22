@@ -24,7 +24,7 @@ if (!isset($_SESSION["user_id"])) {
   </header>
 
   <main class="home-hero">
-    <div class="home-bg"><img src="images/home (1920 x 1080 px).png" alt=""></div>
+    <div class="home-bg"><img src="images/What’s your mood (1).png" alt=""></div>
 
     <p class="hero-tagline">Find your flavor<br>Own your mood</p>
 
