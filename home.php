@@ -29,8 +29,8 @@ if (!isset($_SESSION["user_id"])) {
     <p class="hero-tagline">Find your flavor<br>Own your mood</p>
 
     <div class="socials">
-      <a href="#"><img src="images/messenger-logo-thin-svgrepo-com.svg" alt="Messenger"></a>
-      <a href="#"><img src="images/gmail-svgrepo-com.svg" alt="Email"></a>
+      <a href="https://www.facebook.com/share/1HPRXDbYWZ/" target="_blank" rel="noopener noreferrer"><img src="messenger-logo-thin-svgrepo-com.svg" alt="Messenger"></a>
+      <a href="mailto:leisoliveres@gmail.com"><img src="gmail-svgrepo-com.svg" alt="Email"></a>
     </div>
   </main>
 </body>
