@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $stmt->bind_param("sss", $fullname, $email, $password);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Registration successful!'); window.location='login.html';</script>";
+        echo "<script>alert('Registration successful!'); window.location='home.php';</script>";
     } else {
         echo "<script>alert('Registration failed.'); history.back();</script>";
     }
